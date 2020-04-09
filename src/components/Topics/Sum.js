@@ -7,7 +7,7 @@ export default class Sum extends Component {
     this.state = {
       number1: 0,
       number2: 0,
-      sum: null
+      sum: null,
     };
   }
 
@@ -30,12 +30,12 @@ export default class Sum extends Component {
         <input
           className="inputLine"
           type="number"
-          onChange={e => this.updateNumber1(e.target.value)}
+          onChange={(e) => this.updateNumber1(e.target.value)}
         />
         <input
           className="inputLine"
           type="number"
-          onChange={e => this.updateNumber2(e.target.value)}
+          onChange={(e) => this.updateNumber2(e.target.value)}
         />
         <button
           className="confirmationButton"

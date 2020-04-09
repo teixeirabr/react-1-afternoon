@@ -13,10 +13,10 @@ export default class FilterString extends Component {
         "Blake",
         "Jennifer",
         "Mark",
-        "Maddy"
+        "Maddy",
       ],
       userInput: "",
-      filteredNames: []
+      filteredNames: [],
     };
   }
 
@@ -47,7 +47,7 @@ export default class FilterString extends Component {
         </span>
         <input
           className="inputLine"
-          onChange={e => this.handleChange(e.target.value)}
+          onChange={(e) => this.handleChange(e.target.value)}
         />
         <button
           className="confirmationButton"

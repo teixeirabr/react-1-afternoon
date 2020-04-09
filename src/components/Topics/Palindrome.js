@@ -6,7 +6,7 @@ export default class Palindrome extends Component {
 
     this.state = {
       userInput: "",
-      palindrome: ""
+      palindrome: "",
     };
   }
 
@@ -34,7 +34,7 @@ export default class Palindrome extends Component {
         <h4> Palindrome </h4>
         <input
           className="inputLine"
-          onChange={e => this.handleChange(e.target.value)}
+          onChange={(e) => this.handleChange(e.target.value)}
         />
         <button
           className="confirmationButton"
